@@ -11,6 +11,8 @@
         <title>lajavel</title>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet"> <!--Font name : Sedgwick Ave Display-->
+        <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet"> <!--Font name : Libre Barcode 39 Text-->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link href={{ asset('css/app.css') }} rel="stylesheet" type="text/css" />
@@ -36,6 +38,9 @@
                     @yield('title')
                 </div>
                     @include('navbar')
+                <div class="accroche">
+                    @yield('accroche')
+                </div>
                 <div class="contents">
                     @yield('content')
                 </div>

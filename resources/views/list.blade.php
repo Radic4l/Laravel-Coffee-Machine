@@ -1,12 +1,14 @@
 @extends('theme')
 @section('title')
-  List
+  Drinks List
+@endsection
+@section('accroche')
+  <br>
+  <h3>Use the table for show details about drinks</h3>
 @endsection
 @section('content')
-  <br><br><br>
+  <br><br>
     <div class="container">
-  <h2>Drinks List</h2>
-  <p>Use the table for show details about drinks</p>
   <table class="table table-striped">
     <thead>
       <tr>
